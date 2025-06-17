@@ -1,0 +1,68 @@
+#containerPrincipal {
+  display: flex;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+#barraLateral {
+  width: 250px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+#page-content-wrapper {
+  flex: 1;
+  padding: 20px;
+}
+
+#wrapper.toggled #sidebar {
+  margin-left: -250px;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.imagem-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.itens-invetimentos {
+  width: 100%;
+  background-color: #E5E7EB;
+  border-radius: 6px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.itens-recomendacoes {
+  width: 100%;
+  border-radius: 6px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.itens-transacao {
+  width: 100%;
+  background-color: #E5E7EB;
+  border-radius: 6px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
